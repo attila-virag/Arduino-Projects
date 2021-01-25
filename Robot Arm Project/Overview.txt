@@ -1,0 +1,30 @@
+This project is based on a homeschooling robotics project I have done with my kids.
+
+We are building a robotic arm using an Adruino Uno microcontroller, 4 servo motors and two joysticks.
+We will control the arm using 2 joysticks and we will program the adruino to translate our joystick inputs into servo motor outputs which controls the arm. 
+The adruino can be programmed using C/C++ programming language.
+
+
+Project 1:
+
+We are familiarizing ourselves with the adruino IDE and writing simple code that results in an led blinking output.
+
+Project 2:
+
+We are writing code that moves our servo motor back and forth.
+
+Project 3:
+
+We are writing code that records our joystick inputs and prints the x and y position values out on the screen
+
+Project 4:
+
+We are testing code that translates out joystict inputs to servo motor outputs
+
+Project 5:
+
+We are preparing our 4 servos with the initial angle values at which we will need that to build our robot in the initial position
+
+Project 6:
+
+The final version of the code that translates our control inputs to robot arm movements.
