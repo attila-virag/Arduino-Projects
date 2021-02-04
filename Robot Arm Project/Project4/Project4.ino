@@ -38,7 +38,7 @@ void Logger() {
   Serial.println("");
 }
 
-void MoveServo(const float& deadBand, const int& changeMax, int& analogPos, Servo& servo) {
+void MoveServo(const float& deadBand, const int& changeMax, int& analogPos, Servo& servo, int& pos) {
 
   // the analog values seem to range from 0 to 747 with neutral position being 371
   // we can center and normalize the values accordingly and map it a costum angle rate change in the servo
@@ -62,7 +62,7 @@ void MoveServo(const float& deadBand, const int& changeMax, int& analogPos, Serv
   }
   
   servo.write(pos);              // tell servo to go to position in variable 'pos'
-  delay(15);                       // waits 15ms for the servo to reach the position
+  //delay(15);                       // waits 15ms for the servo to reach the position
 }
 
 void setup() {
@@ -72,9 +72,10 @@ void setup() {
 }
 
 void loop() {
+
   x = analogRead(X);
 
-  MoveServo(0.1, 5, x, myservo);
+  MoveServo(0.1, 5, x, myservo,pos);
   //Logger();
   delay(10);
 }
