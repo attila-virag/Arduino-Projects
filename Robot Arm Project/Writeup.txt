@@ -4,8 +4,7 @@ Robot Arm Project
 Summary
 
 We have built a robot arm that has 4 degrees of freedom and can be controlled with a controller using two analog sticks.
-The brains of the robot is a programmable microcontroller and the robot moves using 4 servo motors. The movement are controlled
-with two analog controller sticks.
+The brains of the robot is a programmable microcontroller and the robot moves using 4 servo motors. 
 
 (Draw the robot from above and from the side)
 
@@ -13,7 +12,7 @@ Definitions
 
 Degrees of Freedom
 
-In mechanics, a degree of freedom is a direction in space in which a body can rotate. A body that has 6 degrees fo freedom can rotate in any direction in 3D space.
+In mechanics, a degree of freedom is a direction in space in which a body can rotate. A body that has 6 degrees of freedom can rotate in any direction in 3D space.
 Our robot arm only has 4 degrees of freedom as we have drawn our diagram.
 
 Microcontroller
